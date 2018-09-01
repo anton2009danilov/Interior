@@ -766,7 +766,7 @@ header .nav li.active,
     padding-bottom: 100px;
 }
 
-.header-mod h1 {
+.header-mod .text h1 {
     clear: both;
     text-transform: none;
 /*    margin-top: 168px;*/
