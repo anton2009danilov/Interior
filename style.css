@@ -609,6 +609,7 @@ header .nav li.active,
 }
 
 .footer {
+    clear: both;
     height: 384px;
     padding: 0 98px;
     background-color: #f7f7f7;
@@ -882,3 +883,69 @@ header .nav li.active,
     text-align: center;
 }
 
+.header-bar {
+    height: 119px;
+    background-image: none;
+}
+
+.header-bar .menu {
+    margin: 53px 0 0 0;
+    margin-right: 167px;
+}
+
+.nav-bar {
+    height: 70px;
+    background-color: #f4f4f4;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    float: left;
+    font-size: 17.99px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-bar li a {
+    display: block;
+    text-decoration: none;
+    margin-right: 45px;
+    margin-top: 26px;
+    color: #6c6c6c;
+}
+
+.nav-bar li a:hover {
+    color: #212121;
+}
+
+.specification {
+    height: 800px;
+    padding: 98px 0 0 72px;
+}
+
+.specification ul {
+    float: left;
+    width: 570px;
+}
+
+.specification ul li {
+    list-style-type: none;
+}
+.specification ul li a {
+    display: block;
+}
+
+.specification ul li:first-of-type{
+    width: 570px;
+    height: 570px;
+}
+.specification ul li {
+    height: 70px;
+    width: 70px;
+    float: left;
+}
+
+.specification .item-description {
+    float: right;
+    width: 510px;
+}
