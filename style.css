@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
-
 @font-face {
     font-family: Gotham;
     src: url(fonts/Gotham-Light.otf);
@@ -10,7 +9,8 @@
     margin: 0;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -204,7 +204,8 @@ header .nav li.active,
 }
 
 .featuredProduct .button,
-.trending .button {
+.trending .button,
+.relatedProduct .button{
     display: block;
     width: 212px;
     height: 45px;
@@ -221,7 +222,8 @@ header .nav li.active,
 }
 
 .featuredProduct .button:hover,
-.trending .button:hover {
+.trending .button:hover,
+.relatedProduct .button:hover {
     background: #ffffff url('img/arrowExplore.png') no-repeat 197px 16px;
 }
 
@@ -390,23 +392,33 @@ header .nav li.active,
     padding-left: 98px;
 }
 
-.trending .title {
+.relatedProduct {
+    height: 600px;
+    padding-left: 98px;
+    padding-bottom: 120px;
+}
+
+.trending .title,
+.relatedProduct .title {
     margin-top: 119px;
     margin-bottom: 64px;
     float: left;
 }
 
-.trending .button {
-    margin-top: 137px;
+.trending .button,
+.relatedProduct .button {
+    margin-top: 119px;
 }
 
-.trending ul {
+.trending ul,
+.relatedProduct ul {
     height: 100%;
     text-align: center;
     clear: both;
 }
 
-.trending ul li {
+.trending ul li,
+.relatedProduct ul li {
     display: block;
     list-style-type: none;
     float: left;
@@ -418,7 +430,8 @@ header .nav li.active,
 
 .trending ul li a,
 .exclusive ul li a,
-.products-gallery ul li a {
+.products-gallery ul li a,
+.relatedProduct ul li a {
     display: block;
     width: 100%;
     height: 100%;
@@ -426,22 +439,26 @@ header .nav li.active,
 
 .trending ul li a:hover,
 .exclusive ul li a:hover,
-.products-gallery ul li a:hover {
+.products-gallery ul li a:hover,
+.relatedProduct ul li a:hover {
     background-color: rgba(156, 156, 156, .3);
 }
 
 .trending ul .productList_item_1,
-.products-gallery .productList_item_1 {
+.products-gallery .productList_item_1,
+.relatedProduct .productList_item_1 {
     background-image: url(img/product_trending_1.jpg);
 }
 
 .trending ul .productList_item_2,
-.products-gallery .productList_item_2 {
+.products-gallery .productList_item_2,
+.relatedProduct .productList_item_2 {
     background-image: url(img/product_trending_2.jpg);
 }
 
 .trending ul .productList_item_3,
-.products-gallery .productList_item_3 {
+.products-gallery .productList_item_3,
+.relatedProduct .productList_item_3 {
     background-image: url(img/product_trending_3.jpg);
 }
 
@@ -632,7 +649,6 @@ header .nav li.active,
     float: left;
     margin-top: 120px;
     margin-left: 98px;
-
 }
 
 .footer h3 {
@@ -648,7 +664,6 @@ header .nav li.active,
     font-size: 12px;
     font-weight: 700;
     line-height: 26px;
-    
 }
 
 .footer p {
@@ -780,7 +795,6 @@ header .nav li.active,
 .header-mod .logo {
     margin-bottom: 0;
     padding-bottom: 100px;
-    
 }
 
 .header-mod .text h1 {
@@ -812,7 +826,6 @@ header .nav li.active,
     border-bottom: 1px solid #8c8c8c;
     color: #6c6c6c;
     font-size: 18px;
-   
     font-weight: 700;
     height: 35px;
 }
@@ -925,7 +938,6 @@ header .nav li.active,
     list-style-type: none;
     float: left;
     font-size: 17.99px;
-   
     font-weight: 700;
 }
 
@@ -965,7 +977,6 @@ header .nav li.active,
     background-image: url(img/chairFoto-3.jpg);
     width: 70px;
     height: 70px;
-
 }
 
 .chairFoto-4 {
@@ -986,7 +997,6 @@ header .nav li.active,
     list-style-type: none;
     display: block;
     margin: 0 15px;
-
 }
 
 .itemPhoto li a {
