@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
 @font-face {
-    font-family: Gotham;
+    font-family: 'Gotham';
     src: url(fonts/Gotham-Light.otf);
 }
 
@@ -320,7 +320,7 @@ header .nav li.active,
 }
 
 .featuredProduct .productsList li .hidden h3 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: #212121;
     font-size: 21.91px;
     /*    font-weight: 700;*/
@@ -328,7 +328,7 @@ header .nav li.active,
 }
 
 .featuredProduct .productsList li .hidden p {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: #6c6c6c;
     font-size: 13.94px;
     /*    font-weight: 300;*/
@@ -787,7 +787,7 @@ header .nav li.active,
 }
 
  .social-icon {
-    font-family: "fontello";
+    font-family: 'fontello';
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
@@ -1089,7 +1089,7 @@ header .nav li.active,
 }
 
 .item-description h2 {
-    font-family: Gotham;
+    font-family: 'Gotham', sans-serif;
     color: #212121;
     font-size: 36px;
     font-weight: 300;
@@ -1128,7 +1128,7 @@ header .nav li.active,
 }
 
 .item-description p {
-    font-family: Gotham;
+    font-family: 'Gotham', sans-serif;
     color: #212121;
     font-size: 16px;
     font-weight: 300;
